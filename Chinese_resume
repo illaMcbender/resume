@@ -1,0 +1,81 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{包蓉}
+
+\basicInfo{
+  \email{1600012979@pku.edu.cn} \textperiodcentered\ 
+  \phone{(+86) 135-818-01421} \textperiodcentered}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{北京大学}, GPA:3.335}{2016 -- 至今}
+\textit{在读本科生}\ 信息科学技术学院 计算机系, 预计 2020 年 6 月毕业
+
+
+\section{\faUsers\ 科研/项目经历}
+\datedsubsection{\textbf{中医药命名实体识别系统} }{2019年 -- 至今}
+\role{}{导师: 王腾蛟}
+基于规则和深度学习模型进行关于中医药的命名实体识别
+\begin{itemize}
+  \item 将基于规则和深度学习模型的命名实体识别系统迁移到中医药领域
+  \item 利用西医医学词典辅助完成中医命名实体识别并建立二者联系
+\end{itemize}
+
+\datedsubsection{\textbf{基于依存树的中文篇章分析}}{2017年 -- 2018年}
+\role{}{导师: 李素建}
+\begin{onehalfspacing}
+\begin{itemize}
+  \item 在跨语言领域基于依存树进行篇章分析
+  \item 通过大量英文语料库辅助中文进行篇章分析
+\end{itemize}
+\end{onehalfspacing}
+
+\section{\faUsers\ 实习/项目经历}
+\datedsubsection{\textbf{深圳创新投资集团有限公司北京办事处} 北京}{2018年12月 -- 2019年2月}
+\role{投资分析师}{}
+\begin{itemize}
+  \item 参与项目尽职调查，对拟投资企业进行分析 
+  \item 整理项目相关文档，参与编写项目投资文件
+  \item 了解学习投资项目知识与流程
+\end{itemize}
+
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+
+\section{\faHeartO\ 课外活动}
+\datedsubsection{\textbf{纸路益行社书信志愿者} }{2016年9月 -- 2017年8月}
+\begin{itemize}
+  \item 与边缘山区的小朋友进行为期一年的通信活动
+  \item 通过书信沟通，答疑解惑，提供力所能及的帮助
+\end{itemize}
+
+\section{\faInfo\ 其他技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: C++, python
+  \item 语言: 英语 - 熟练(CET4 632, CET6 534, TOEFL 99)
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
